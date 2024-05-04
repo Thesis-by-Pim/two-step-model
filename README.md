@@ -1,6 +1,6 @@
 ![plot](./readmeImage.png)
 # two-step-model
-The Mixed-integer Linear Programming Model with all configuration files used to generate results in for my master thesis.
+The Mixed-integer Linear Programming Model with all configuration files used to generate results for my master thesis.
 
 ## Install
 This program uses pipenv to ensure reproducibility. You will need to have [pipenv](https://github.com/pypa/pipenv) installed. 
