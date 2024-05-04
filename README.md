@@ -1,6 +1,7 @@
-![Alt text](relative%20readmeImage.png)
-# two-step-model
-The Mixed-integer Linear Programming Model with all configuration files used to generate results in for my master thesis.
+![plot](./readmeImage.png)
+
+# Planning small scale agriculture to optimize nutritional intake for households living on small daily budgets
+The Mixed-integer Linear Programming Model (with all configuration files), that was used to generate results for my master thesis.
 
 ## Install
 This program uses pipenv to ensure reproducibility. You will need to have [pipenv](https://github.com/pypa/pipenv) installed. 
