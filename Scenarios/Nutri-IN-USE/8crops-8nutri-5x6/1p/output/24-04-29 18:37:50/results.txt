@@ -1,0 +1,181 @@
+{
+    "name": "Nutrition_maximization",
+    "resultConclusion": {
+        "Nutrition_maximization": "OPTIMAL",
+        "Value_maximization": "undefined"
+    },
+    "total_crops": 574,
+    "total_space": "94.61999999999999 m2",
+    "selected_crop_amounts": {
+        "Eggplant": 0.0,
+        "Lettuce": 12.0,
+        "Okra": 0.0,
+        "Potatoes": 112.0,
+        "RedBellPepper": 108.0,
+        "SweetPotatoes": 224.0,
+        "Tomatoes": 0.0,
+        "Zucchini": 10.0,
+        "Eggplant2": 0.0,
+        "Lettuce2": 0.0,
+        "Okra2": 0.0,
+        "Potatoes2": 0.0,
+        "RedBellPepper2": 108.0,
+        "SweetPotatoes2": 0.0,
+        "Tomatoes2": 0.0,
+        "Zucchini2": 0.0
+    },
+    "crop_crow_time_range": [
+        [
+            -1,
+            -1
+        ],
+        [
+            1.0,
+            74.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            1.0,
+            81.0
+        ],
+        [
+            186.0,
+            256.0
+        ],
+        [
+            81.0,
+            186.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            1.0,
+            49.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            256.0,
+            326.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ]
+    ],
+    "space_by_crop_type": {
+        "Eggplant": "0.0 m2",
+        "Lettuce": "2.7 m2",
+        "Okra": "0.0 m2",
+        "Potatoes": "13.44 m2",
+        "RedBellPepper": "24.3 m2",
+        "SweetPotatoes": "26.88 m2",
+        "Tomatoes": "0.0 m2",
+        "Zucchini": "3.0 m2",
+        "Eggplant2": "0.0 m2",
+        "Lettuce2": "0.0 m2",
+        "Okra2": "0.0 m2",
+        "Potatoes2": "0.0 m2",
+        "RedBellPepper2": "24.3 m2",
+        "SweetPotatoes2": "0.0 m2",
+        "Tomatoes2": "0.0 m2",
+        "Zucchini2": "0.0 m2"
+    },
+    "yield_by_crop_type": {
+        "Eggplant": "0.0 g",
+        "Lettuce": "10800.0 g",
+        "Okra": "0.0 g",
+        "Potatoes": "557760.0 g",
+        "RedBellPepper": "172800.0 g",
+        "SweetPotatoes": "504000.0 g",
+        "Tomatoes": "0.0 g",
+        "Zucchini": "8000.0 g",
+        "Eggplant2": "0.0 g",
+        "Lettuce2": "0.0 g",
+        "Okra2": "0.0 g",
+        "Potatoes2": "0.0 g",
+        "RedBellPepper2": "172800.0 g",
+        "SweetPotatoes2": "0.0 g",
+        "Tomatoes2": "0.0 g",
+        "Zucchini2": "0.0 g"
+    },
+    "value_by_crop_type": {
+        "Eggplant": 0.0,
+        "Lettuce": 0.0,
+        "Okra": 0.0,
+        "Potatoes": 0.0,
+        "RedBellPepper": 0.0,
+        "SweetPotatoes": 0.0,
+        "Tomatoes": 0.0,
+        "Zucchini": 0.0,
+        "Eggplant2": 0.0,
+        "Lettuce2": 0.0,
+        "Okra2": 0.0,
+        "Potatoes2": 0.0,
+        "RedBellPepper2": 0.0,
+        "SweetPotatoes2": 0.0,
+        "Tomatoes2": 0.0,
+        "Zucchini2": 0.0
+    },
+    "nutrition_required_per_period": {
+        "A": 0.2555,
+        "B1": 0.4015,
+        "C": 16.425,
+        "Carbohydrates": 85775.0,
+        "E": 5.475,
+        "Iron": 6.570000000000001,
+        "Protein": 16790.0,
+        "Zinc": 2.92
+    },
+    "nutrition_produced_per_period": {
+        "0": {
+            "A": 10.7685136,
+            "B1": 1.366972,
+            "C": 700.2885600000001,
+            "Carbohydrates": 481885.48000000004,
+            "E": 5.47992,
+            "Iron": 6.579776,
+            "Protein": 66414.6,
+            "Zinc": 4.02528
+        }
+    },
+    "nutrition_deficit_per_period": {
+        "0": {
+            "A": -10.5130136,
+            "B1": -0.9654720000000001,
+            "C": -683.8635600000001,
+            "Carbohydrates": -396110.48000000004,
+            "E": -0.0049200000000002575,
+            "Iron": -0.009775999999998675,
+            "Protein": -49624.600000000006,
+            "Zinc": -1.1052800000000005
+        }
+    }
+}

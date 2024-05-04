@@ -1,0 +1,2 @@
+[console_scripts]
+cli = linear_programming_setup.cli:cli

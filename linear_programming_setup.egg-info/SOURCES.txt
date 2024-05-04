@@ -1,0 +1,15 @@
+pyproject.toml
+setup.py
+linear_programming_setup/cli.py
+linear_programming_setup/maxValueSolver.py
+linear_programming_setup/minSpaceSolver.py
+linear_programming_setup/mipSolver.py
+linear_programming_setup/nutritionAndMarketValueSolver.py
+linear_programming_setup/problemDef.py
+linear_programming_setup.egg-info/PKG-INFO
+linear_programming_setup.egg-info/SOURCES.txt
+linear_programming_setup.egg-info/dependency_links.txt
+linear_programming_setup.egg-info/entry_points.txt
+linear_programming_setup.egg-info/not-zip-safe
+linear_programming_setup.egg-info/requires.txt
+linear_programming_setup.egg-info/top_level.txt

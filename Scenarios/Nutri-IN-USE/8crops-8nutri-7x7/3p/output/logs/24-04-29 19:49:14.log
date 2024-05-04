@@ -1,0 +1,274 @@
+
+[32m19:49:15[0m | [1mINFO    [0m | - [1mParsing problem definition from config files[0m
+
+
+[32m19:49:15[0m | [1mINFO    [0m | - [1mRunning solver of type NUTRITION_AND_MARKET_VALUE[0m
+
+19:49:15 |              Building model
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2409054
+Read parameters from file gurobi.env
+Academic license 2409054 - for non-commercial use only - registered to pi___@live.nl
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2409054
+Read parameters from file gurobi.env
+Academic license 2409054 - for non-commercial use only - registered to pi___@live.nl
+
+--------------------
+19:49:15 | START    | - RUNNING Nutrition_maximization model
+--------------------
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mwidth: 700.0 Height: 700.0[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 64[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 196[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 289[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 361[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 196[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 361[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 196[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 144[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 64[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 196[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 289[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 361[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 196[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 361[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 196[0m
+[32m19:49:15[0m | [31m[1mERROR   [0m | - [31m[1mless 144[0m
+19:49:17 |              Solution status: OptimizationStatus.OPTIMAL
+19:49:17 |              Objective (Minimization nutrient shortage) value: 24.0   Optimality gap: 0.00%
+19:49:17 |              {'Eggplant': 0.0, 'Lettuce': 0.0, 'Okra': 102.0, 'Potatoes': 128.0, 'RedBellPepper': 80.0, 'SweetPotatoes': 0.0, 'Tomatoes': 196.0, 'Zucchini': 0.0, 'Eggplant2': 0.0, 'Lettuce2': 0.0, 'Okra2': 80.0, 'Potatoes2': 96.0, 'RedBellPepper2': 126.0, 'SweetPotatoes2': 0.0, 'Tomatoes2': 64.0, 'Zucchini2': 0.0}
+19:49:17 |              
+[32m19:49:19[0m | [32m[1mSUCCESS [0m | - [32m[1mRuntime model Nutrition_maximization: 3.56 seconds[0m
+19:49:19 | END      | 
+--------------------
+
+
+
+[32m19:49:19[0m | [1mINFO    [0m | - [1m[32mSkipping value opt[0m[1m, valueOptAfterNutri=FALSE[0m
+
+
+[32m19:49:20[0m | [1mINFO    [0m | - [1mModel results saved to folder: TestScenarios/Nutri/8crops-8nutri-7x7/3p/output/24-04-29 19:49:15[0m
+
+{
+    "name": "Nutrition_maximization",
+    "resultConclusion": {
+        "Nutrition_maximization": "OPTIMAL",
+        "Value_maximization": "undefined"
+    },
+    "total_crops": 872,
+    "total_space": "159.03 m2",
+    "selected_crop_amounts": {
+        "Eggplant": 0.0,
+        "Lettuce": 0.0,
+        "Okra": 102.0,
+        "Potatoes": 128.0,
+        "RedBellPepper": 80.0,
+        "SweetPotatoes": 0.0,
+        "Tomatoes": 196.0,
+        "Zucchini": 0.0,
+        "Eggplant2": 0.0,
+        "Lettuce2": 0.0,
+        "Okra2": 80.0,
+        "Potatoes2": 96.0,
+        "RedBellPepper2": 126.0,
+        "SweetPotatoes2": 0.0,
+        "Tomatoes2": 64.0,
+        "Zucchini2": 0.0
+    },
+    "crop_crow_time_range": [
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            235.0,
+            295.0
+        ],
+        [
+            1.0,
+            81.0
+        ],
+        [
+            1.0,
+            71.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            84.0,
+            164.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            305.0,
+            365.0
+        ],
+        [
+            164.0,
+            244.0
+        ],
+        [
+            295.0,
+            365.0
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            164.0,
+            244.0
+        ],
+        [
+            -1,
+            -1
+        ]
+    ],
+    "space_by_crop_type": {
+        "Eggplant": "0.0 m2",
+        "Lettuce": "0.0 m2",
+        "Okra": "15.299999999999999 m2",
+        "Potatoes": "15.36 m2",
+        "RedBellPepper": "18.0 m2",
+        "SweetPotatoes": "0.0 m2",
+        "Tomatoes": "44.1 m2",
+        "Zucchini": "0.0 m2",
+        "Eggplant2": "0.0 m2",
+        "Lettuce2": "0.0 m2",
+        "Okra2": "12.0 m2",
+        "Potatoes2": "11.52 m2",
+        "RedBellPepper2": "28.35 m2",
+        "SweetPotatoes2": "0.0 m2",
+        "Tomatoes2": "14.4 m2",
+        "Zucchini2": "0.0 m2"
+    },
+    "yield_by_crop_type": {
+        "Eggplant": "0.0 g",
+        "Lettuce": "0.0 g",
+        "Okra": "153000.0 g",
+        "Potatoes": "637440.0 g",
+        "RedBellPepper": "128000.0 g",
+        "SweetPotatoes": "0.0 g",
+        "Tomatoes": "254800.0 g",
+        "Zucchini": "0.0 g",
+        "Eggplant2": "0.0 g",
+        "Lettuce2": "0.0 g",
+        "Okra2": "120000.0 g",
+        "Potatoes2": "478080.0 g",
+        "RedBellPepper2": "201600.0 g",
+        "SweetPotatoes2": "0.0 g",
+        "Tomatoes2": "83200.0 g",
+        "Zucchini2": "0.0 g"
+    },
+    "value_by_crop_type": {
+        "Eggplant": 0.0,
+        "Lettuce": 0.0,
+        "Okra": 3000.0,
+        "Potatoes": 0.0,
+        "RedBellPepper": 0.0,
+        "SweetPotatoes": 0.0,
+        "Tomatoes": 0.0,
+        "Zucchini": 0.0,
+        "Eggplant2": 0.0,
+        "Lettuce2": 0.0,
+        "Okra2": 0.0,
+        "Potatoes2": 0.0,
+        "RedBellPepper2": 0.0,
+        "SweetPotatoes2": 0.0,
+        "Tomatoes2": 0.0,
+        "Zucchini2": 0.0
+    },
+    "nutrition_required_per_period": {
+        "A": 0.08516666666666667,
+        "B1": 0.13383333333333333,
+        "C": 5.4750000000000005,
+        "Carbohydrates": 28591.666666666668,
+        "E": 1.825,
+        "Iron": 2.1900000000000004,
+        "Protein": 5596.666666666667,
+        "Zinc": 0.9733333333333333
+    },
+    "nutrition_produced_per_period": {
+        "0": {
+            "A": 6.3267584,
+            "B1": 0.771584,
+            "C": 306.69824000000006,
+            "Carbohydrates": 522265.60000000003,
+            "E": 2.0224,
+            "Iron": 2.424064,
+            "Protein": 61708.8,
+            "Zinc": 2.1683199999999996
+        },
+        "1": {
+            "A": 4.7363088,
+            "B1": 0.6528746,
+            "C": 141.02368,
+            "Carbohydrates": 400426.80000000005,
+            "E": 1.8252000000000002,
+            "Iron": 2.394648,
+            "Protein": 48459.600000000006,
+            "Zinc": 2.00884
+        },
+        "2": {
+            "A": 0.40939200000000003,
+            "B1": 0.62688,
+            "C": 345.6120000000001,
+            "Carbohydrates": 28601.04,
+            "E": 3.18528,
+            "Iron": 2.3052,
+            "Protein": 6716.400000000001,
+            "Zinc": 1.8996000000000002
+        }
+    },
+    "nutrition_deficit_per_period": {
+        "0": {
+            "A": -6.241591733333333,
+            "B1": -0.6377506666666667,
+            "C": -301.22324000000003,
+            "Carbohydrates": -493673.93333333335,
+            "E": -0.19740000000000024,
+            "Iron": -0.2340639999999996,
+            "Protein": -56112.13333333334,
+            "Zinc": -1.1949866666666664
+        },
+        "1": {
+            "A": -4.651142133333333,
+            "B1": -0.5190412666666666,
+            "C": -135.54868000000002,
+            "Carbohydrates": -371835.13333333336,
+            "E": -0.00020000000000020002,
+            "Iron": -0.20464799999999972,
+            "Protein": -42862.93333333334,
+            "Zinc": -1.035506666666667
+        },
+        "2": {
+            "A": -0.32422533333333337,
+            "B1": -0.49304666666666663,
+            "C": -340.13700000000006,
+            "Carbohydrates": -9.373333333332994,
+            "E": -1.3602800000000002,
+            "Iron": -0.11519999999999975,
+            "Protein": -1119.7333333333336,
+            "Zinc": -0.9262666666666669
+        }
+    }
+}

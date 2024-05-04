@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: linear_programming_setup
+Version: 0.0.0
+Summary: Barebones linear programming setup
+Requires-Dist: click
+Requires-Dist: mip
+Requires-Dist: mypy
